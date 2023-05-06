@@ -1,0 +1,16 @@
+namespace Teste;
+
+table Course {
+    id: int;
+    name: string;
+    description: string;
+}
+
+table Lesson {
+    id: int;
+    name: string;
+    description: string;
+    course_id: int;
+}
+
+root_type Course;
